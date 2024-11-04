@@ -22,3 +22,8 @@ AI-powered safety monitoring system that uses GPS, accelerometer, and audio data
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/AI-Enhanced-Personal-Safety-Monitoring.git
+
+## Usage
+- Data Collection: Use gps_collection.dart and accelerometer_data.dart to collect location and movement data.
+- Risk and Sentiment Prediction: Run the API and send data to /upload_data endpoint to receive risk assessments.
+- Cloud Upload: Use vultr_integration.py to upload data to the Vultr Cloud.
