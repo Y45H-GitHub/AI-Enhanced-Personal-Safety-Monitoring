@@ -9,14 +9,12 @@ AI-powered safety monitoring system that uses GPS, accelerometer, and audio data
 - **Cloud Integration**: Stores data on Vultr Cloud for later analysis.
 - **Alerts**: Notifies workers when potentially dangerous situations are detected.
 
-## Project Structure
-
-- **app/data_collection**: Collects real-time GPS and accelerometer data.
-- **app/backend**: Flask-based API to process data and predict risk.
-- **app/detection**: Machine learning models for GPS risk and audio sentiment.
-- **app/alerts**: Sends alerts based on model predictions.
-- **app/cloud_integration**: Code to upload data to Vultr Cloud.
-
+### Backend (Flask)
+1. Navigate to `app/` directory.
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   
 ## Installation
 
 1. **Clone the repository**:
