@@ -1,3 +1,3 @@
-S3_BUCKET = 'your-bucket'
+S3_BUCKET = 'gig-worker-safety-data'
 S3_ENDPOINT = 'https://ewr1.vultrobjects.com'
-SECRET_KEY = 'your-secret-key'
+SECRET_KEY = 'ePLC2OLt9VbJNAtQjOmu1e0ECnxyaQnfDHLcUXE3'
